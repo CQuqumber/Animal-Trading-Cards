@@ -1,0 +1,41 @@
+CSS Code Quality Tip
+
+Here and everywhere below (and as a result in .html file too) it is better to use class selectors instead of id for styling page.
+
+There is nothing that stops you from using id attributes on unique content elements. Using id you speed up javascript DOM traversals. But for styling purposes it is considered by many as bad practice. The main points to consider are these:
+
+classes can be used for multiple inheritance, id's needs to be unique
+selector specificity can become a nightmare if you need to use inheritance paired with id styling
+The Udacity Frontend Nanodegree Style Guide also states that it is considered a bad practice to use IDs in your CSS files:
+https://udacity.github.io/frontend-nanodegree-styleguide/css.html#type-selectors
+
+You can read more in this article:
+http://css-discuss.incutio.com/wiki/Classes_Vs_Ids
+
+P.S. If you're using id selector for JavaScript DOM manipulation, keep the id but add a class for the styles (an element can have both a class and id).
+
+<a href="/" class="foo" id="bar">Hello world!</a>
+Also you may be interested in BEM framework which dertermine rules for styling:
+https://bem.info/
+
+
+Problem
+
+Class names are not meaningful enough. I would recommend to give more descriptive names to classes rather than just first and second. Something like:
+
+.interesting-fact {
+or
+
+.animal-description {
+will be good here.
+
+Code readability is very important code metric, especially if you are:
+
+working in team and other team members will investigate/review your code
+going to maintain this project for a long time.
+Refer please to self-documenting code:
+https://en.wikipedia.org/wiki/Self-documenting_code
+http://stackoverflow.com/questions/209015/what-is-self-documenting-code-and-can-it-replace-well-documented-code
+http://c2.com/cgi/wiki?SelfDocumentingCode
+36
+​
