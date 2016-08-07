@@ -1,7 +1,7 @@
 /* add your CSS here */
 
 .header-name {	
-	font-family: "cursive", arial, sans-serif;
+	font-family: cursive, "arial", sans-serif;
 	font-size: x-large;
 }
 
@@ -19,11 +19,11 @@
 	font-weight: bold;
 }
 
-.interest-span {
+.interest {
 	font-style: italic;
 }
 
-.first {
+.animal-card {
 	width: 300px;
 	border-radius: 20px;
 	border-color: #00cc00;
@@ -32,12 +32,12 @@
 	background: #ffff33; 
 }
 
-.second {
+.animal-info {
 	margin-top: 5px;
 	position: relative;
 	border-style: groove;
-	border-color:#80e5ff;
+	border-color: #80e5ff;
 	border-radius: 15px;
-	padding:5px 10px 0px 10px;
+	padding: 5px 10px 0px 10px;
 	/* top | right | bottom | left */
 }
