@@ -1,44 +1,43 @@
 /* add your CSS here */
 
-h3{
+.header-name {	
+	font-family: "cursive", arial, sans-serif;
 	font-size: x-large;
 }
-img{
+
+.animal-image {
 	width: 300px; 
 	border-radius: 10px;
-
  }
 
-ul{
-	list-style-type :none;
+.first-list {
+	list-style-type: none;
  	padding-left: 0;
 }
 
-span{
+span {
 	font-weight: bold;
 }
 
-#interest{
+.interest-span {
 	font-style: italic;
 }
 
-.first{
-	font: serif;
+.first {
 	width: 300px;
-	border-radius:  20px;
+	border-radius: 20px;
 	border-color: #00cc00;
 	border: 10px solid hsla(0, 0%, 100%, .5);
-	padding:1px 15px 15px 15px ;
+	padding: 1px 15px 15px 15px;
 	background: #ffff33; 
 }
 
-.second{
-
+.second {
 	margin-top: 5px;
 	position: relative;
 	border-style: groove;
 	border-color:#80e5ff;
 	border-radius: 15px;
-	padding:5px 10px 0px 10px ;
+	padding:5px 10px 0px 10px;
 	/* top | right | bottom | left */
 }
